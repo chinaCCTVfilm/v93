@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #e8f5e9;
+}
+
+.layout {
+  display: flex;
+}
+
+.ad-left, .ad-right {
+  width: 10%;
+  background: #c8e6c9;
+}
+
+.main {
+  width: 79%;
+  margin: 0 0.5%;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+}
