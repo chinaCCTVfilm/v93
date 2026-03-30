@@ -1,5 +1,6 @@
 name = "goodfilm"
-compatibility_date = "2024-01-01"
+compatibility_date = "2026-03-30"   # 更新到较新日期
 
-[vars]
-# 不写KEY（安全）
+# 声明需要哪些 secret（推荐做法）
+[secrets]
+required = ["TMDB_API_KEY"]
