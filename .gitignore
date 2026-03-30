@@ -1,0 +1,16 @@
+# Cloudflare local secrets
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+
+# Node.js
+node_modules/
+.npm
+
+# Build / dist
+dist/
+build/
+
+# Logs
+*.log
