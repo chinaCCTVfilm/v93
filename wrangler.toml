@@ -1,13 +1,5 @@
 name = "goodfilm"
 compatibility_date = "2026-03-30"
 
-# 必须字段！否则 wrangler.toml 会被 Cloudflare 忽略
+# 必须字段，告诉 Pages 输出目录（你的项目是根目录）
 pages_build_output_dir = "/"
-
-# Secret 声明
-[secrets]
-required = ["TMDB_API_KEY"]
-
-# 可选非敏感变量
-[vars]
-SITE_TITLE = "GoodFilm Pro"
