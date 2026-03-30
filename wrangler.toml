@@ -1,6 +1,13 @@
 name = "goodfilm"
-compatibility_date = "2026-03-30"   # 更新到较新日期
+compatibility_date = "2026-03-30"
 
-# 声明需要哪些 secret（推荐做法）
+# 必须字段！否则 wrangler.toml 会被 Cloudflare 忽略
+pages_build_output_dir = "/"
+
+# Secret 声明
 [secrets]
 required = ["TMDB_API_KEY"]
+
+# 可选非敏感变量
+[vars]
+SITE_TITLE = "GoodFilm Pro"
